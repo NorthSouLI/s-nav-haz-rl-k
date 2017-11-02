@@ -1,0 +1,38 @@
+package ybs101w4;
+import java.util.Scanner;
+
+public class borcfaiz {
+
+	private static Scanner input;
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int süreyıl;
+		double ödenecekfaiz, sonoran, faizoran, ödenecekborc, istenenborc, ayödeme  ;
+		
+		input = new Scanner (System.in);
+		System.out.print("Almak istediğiniz borç");
+		istenenborc = input.nextDouble();
+ 		System.out.print("Senelik faiz oranın kaç");
+ 		faizoran = input.nextDouble();
+ 		double yılfaiz = faizoran / 12.0 ;
+ 		System.out.print("Kaç sene ödeyeceksiniz");
+ 		süreyıl = input.nextInt();
+ 		sonoran = yılfaiz * süreyıl ;
+ 		ödenecekfaiz = istenenborc * sonoran / 100 ;
+ 		ödenecekborc = ödenecekfaiz + istenenborc ;
+ 		ayödeme = ödenecekborc / 12 ;
+ 		System.out.print("yıllık ödeyeceğiniz borç= "+ ayödeme);
+ 		System.out.print("\nödeyeceğiniz toplam borç= "+ ödenecekborc);
+ 		System.out.println("yıllık ödeyeceğiniz borç");
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}
