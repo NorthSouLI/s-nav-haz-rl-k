@@ -1,0 +1,43 @@
+package ybs101w4;
+import java.util.Scanner;
+public class NorthSouL {
+
+	private static Scanner input;
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int num1, num2;
+		int girilentoplam, do�rucevap;
+		
+		num1 = (int) (Math.random() * 10);
+		num2 = (int) (Math.random() * 10);
+		
+		System.out.print("sayilar" + num1 + " " + num2);
+		System.out.println("toplam nedir yaziniz");
+		input = new Scanner (System.in);
+		girilentoplam = input.nextInt();
+		
+		do�rucevap = num1+num2;
+		
+		if(do�rucevap == girilentoplam);{
+		
+		System.out.println("do�ru cevap");
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}
