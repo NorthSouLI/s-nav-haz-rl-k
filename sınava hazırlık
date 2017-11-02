@@ -1,0 +1,97 @@
+package ybs101w4;
+import java.util.Scanner;	
+public class kosucuHesaplama {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//85 sayısı kaça tam bölünür
+		/*
+		int veri= 85;
+		for(int say = 2; say < veri; say++)
+		{
+		if(veri % say ==0)
+			System.out.println(say);
+		*/
+		/*
+		Scanner input = new Scanner(System.in);
+		System.out.println("Dakika sayısını girin:");
+		long dak = input.nextInt();
+		
+		long sene;
+		long gun;
+		gun = dak / (24*60);
+		sene = gun / 365;
+		long kalangun = gun % 365;
+		System.out.println(dak + " dakika yaklasık " + sene + " sene " + kalangun + " gundur ");
+		
+		input.close();
+		*/
+		/*
+		Scanner input = new Scanner(System.in);
+		int x1, x2, y1, y2;
+		System.out.println("lokasyon gir -x1");
+		x1 = input.nextInt();
+		System.out.println("lokasyon gir -x2");
+		x2 = input.nextInt();
+		System.out.println("lokasyon gir -y1");
+		y1 = input.nextInt();
+		System.out.println("lokasyon gir -y2");
+		y2 = input.nextInt();
+		int mesafe = (int)Math.pow(((int)Math.pow(x2-x1, 2)+(int)Math.pow(y2-y1, 2)), 0.5);
+		//System.out.println("iki sayı arasındaki mesafe" +mesafe);
+		
+		
+		int a, b;
+		a = (int) Math.pow(x2-x1, 2);
+		b = (int) Math.pow(y2-y1, 2);
+		double distance2 = Math.pow(a+b, 0.5);
+		System.out.println("iki sayı arasındaki mesafe" +distance2);
+		*/
+		/*
+		Scanner input = new Scanner(System.in);
+		System.out.print("0 - 6 Gun giriniz");
+		int girdi = input.nextInt();
+		switch (girdi) {
+		case 0: System.out.println("Pazar"); break;
+		case 1: System.out.println("Pazartesi"); break;
+		case 2: System.out.println("Salı"); break;
+		case 3: System.out.println("Çarşamba"); break;
+		case 4: System.out.println("Perşembe"); break;
+		case 5: System.out.println("Cuma"); break;
+		case 6: System.out.println("Cumartesi");
+		}
+		 */
+		
+		/*
+		int rastgelesayı = (int) (Math.random()* 100);
+		System.out.println("sayıların toplamını girin" + rastgelesayı);
+		Scanner input = new Scanner(System.in);
+		int kullsayı = input.nextInt();
+		
+		int yuzluk = rastgelesayı / 100;
+		int ondalık = (rastgelesayı %100) / 10;
+		int birlik = (rastgelesayı %100) %10;
+		int toplam = yuzluk + ondalık + birlik;
+		
+		if(toplam == kullsayı)
+			System.out.println("dogru");
+		else
+			System.out.println("yanlis");
+		*/
+		
+		/*
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("Uc haneli sayı gir");
+		int number= input.nextInt();
+		
+		if (number / 100 == number %10)
+			System.out.println(number + "is a palindrome");
+		else
+			System.out.println(number + "is not a palindrome");
+		*/
+		
+		
+		
+		
