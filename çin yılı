@@ -1,0 +1,56 @@
+package ybs101w4;
+import java.util.Scanner;
+public class cans�k�nt�s� {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int sene;
+		System.out.println("bir sene giriniz");
+		Scanner input = new Scanner (System.in);
+		sene = input.nextInt();
+		
+		switch (sene %12){
+		
+		case 0:
+		System.out.println("Maymun y�l�");break;
+		case 1:
+			System.out.println("Horoz y�l�");break;
+		case 2:
+			System.out.println("Kopek y�l�");break;
+		case 3:
+			System.out.println("Domuz y�l�");break;
+		case 4:
+			System.out.println("Fare y�l�");break;
+		case 5:
+			System.out.println("Boga y�l�");break;
+		case 6:
+			System.out.println("Kaplan y�l�");break;
+		case 7:
+			System.out.println("Tavsan y�l�");break;
+		case 8:
+			System.out.println("Ejderha y�l�");break;
+		case 9:
+			System.out.println("Y�lan y�l�");break;
+		case 10:
+			System.out.println("At y�l�");break;
+		case 11:
+			System.out.println("Kuzu y�l�");break;
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+	}
+}
