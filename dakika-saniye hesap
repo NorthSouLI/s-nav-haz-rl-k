@@ -1,0 +1,34 @@
+package ybs101w4;
+import java.util.Scanner;
+
+public class sinsirella {
+
+	private static Scanner input;
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int kullveri, dakhesap, sanhesap;
+		
+		System.out.println("saniye giriniz");
+		input = new Scanner (System.in);
+		kullveri = input.nextInt();
+		
+		dakhesap = kullveri / 60;
+		sanhesap = kullveri %60;
+		
+		System.out.println("girilen saniye" + kullveri);
+		System.out.println("cevirisi" + dakhesap + "dak ve" + sanhesap + "saniye");
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}
