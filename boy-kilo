@@ -1,0 +1,40 @@
+package ybs101w4;
+import java.util.Scanner;
+public class cam��lar {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	double kulkilokg, kulboyumt;
+	double BMIsonuc;
+	
+	
+	Scanner myscanner = new Scanner (System.in);
+	System.out.println("kilonuzu girin - kg");
+	kulkilokg = myscanner.nextDouble();
+	
+	System.out.println("boyunuzu girin - mt");
+	kulboyumt = myscanner.nextDouble();
+	
+	
+	System.out.println("kilonuz -" + kulkilokg + "boyunuz" + kulboyumt *100 + "cm"); 
+	
+	BMIsonuc = kulkilokg / (kulboyumt * kulboyumt);
+	System.out.println("BMI =" + BMIsonuc);
+	
+	if (BMIsonuc < 18.5)
+		System.out.println("zayif");
+	else if (BMIsonuc < 25)
+		System.out.println("normal");
+	else if (BMIsonuc < 30) 
+		System.out.println("kilolu");
+	else
+		System.out.println("obez");
+	
+	
+	
+	
+	
+	
+	
+}
+ }
