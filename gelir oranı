@@ -1,0 +1,62 @@
+package ybs101w4;
+import java.util.Scanner;
+public class di�a�r�s�n�namk {
+
+public static void main(String[] args) {
+	// TODO Auto-generated method stub
+
+	int durum;
+	double gelir;
+	int geliroran�;
+
+
+	Scanner input = new Scanner(System.in);
+	System.out.println("l�tfen durumunu gir 1 - 4 aras�nda olsun");
+	durum = input.nextInt();
+	System.out.println("lutfen gelirini gir dolar olarak gir");
+	gelir = input.nextDouble();
+
+	System.out.println("durum =" + durum + "geliriniz ="+ gelir);
+
+	if (durum ==1){
+		if(gelir <= 8350){
+			geliroran� = 10;
+			System.out.println("gelir oran� = 10%");
+		}else if (gelir <=33.950){
+		geliroran� = 15;
+		System.out.println("gelir oran� = 15%");	
+		}else if (gelir <=82.250){
+			geliroran� = 25;
+			System.out.println("gelir oran� = 25%");
+		}else if (gelir <=171.550){
+			geliroran� = 28;
+			System.out.println("gelir oran� = 28%");
+		}else if (gelir <=372.950){
+			geliroran� = 33;
+			System.out.println("gelir oran� = 33%");
+		}else if (gelir <=33950){
+			geliroran� = 15;
+			System.out.println("gelir oran� = 25%");
+		}else{
+			geliroran� = 35;
+			System.out.println("geliroran� = 35%");
+			
+			
+			
+			
+			
+		}
+	}else if (durum ==2){
+	}else if (durum ==3){
+	
+	
+	
+	
+	
+	
+	
+	
+
+	}
+}
+}
