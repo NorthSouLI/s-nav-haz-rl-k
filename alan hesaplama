@@ -1,0 +1,43 @@
+package ybs101w4;
+import java.util.Scanner;
+
+public class MARDATONNETAFANKARDOIXSERR�HIRRIME {
+
+	private static Scanner input;
+
+	public static void main(String[] args) {		
+		// TODO Auto-generated method stub
+		
+		double yaricap;
+		double alan;
+		final double PI = 3.14159;
+		double yaricap2;
+				
+
+		
+		
+		
+		input = new Scanner(System.in);
+		System.out.print("Dairenin yaricapi gir:");
+		yaricap = input.nextDouble();
+		System.out.println("yaricap =" + yaricap);
+		
+		alan = yaricap * yaricap * PI;
+		
+		System.out.println("dairenin alani =" + alan);
+		
+		System.out.print("Dairenin 2-yaricapi gir:");
+		yaricap2 = input.nextDouble();
+		alan = yaricap2 * yaricap * PI;
+		System.out.println("1-dairenin alani =" + alan);
+		
+		System.out.print("Dairenin 2-yaricapi gir:");
+		
+		
+		
+		
+		
+		
+	}
+
+}
