@@ -1,0 +1,31 @@
+package ybs101w4;
+import java.util.Scanner;
+public class di�a�r�s� {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int girilensay�;
+		
+		Scanner input = new Scanner (System.in);
+		System.out.println("l�tfen bir say� giriniz");
+		girilensay� = input.nextInt();
+		
+		if(girilensay� % 5 == 0)
+			System.out.println("sayiniz" + girilensay� + "-5 e b�l�n�yor");
+		
+		
+		if(girilensay� % 2 == 0)
+			System.out.println("sayiniz" + girilensay� + "-2 e b�l�n�yor");
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}
