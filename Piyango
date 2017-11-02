@@ -1,0 +1,41 @@
+package ybs101w4;
+import java.util.Scanner;
+public class SAYSAYPARALARISAY {
+
+	private static Scanner input;
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int sis1, sis2, ikilisayi, kul1, kul2 ;
+		ikilisayi =(int)(Math.random()*100);
+		System.out.println("sayi" + ikilisayi);
+		sis1 =  ikilisayi /10;
+		sis2 =  ikilisayi &10;
+		
+		System.out.println("sayi" + sis1 + sis2);
+		System.out.println("l�tfen 0-9 aras�nda iki sayi giriniz");
+		input = new Scanner(System.in);
+		kul1 = input.nextInt();
+		kul2 = input.nextInt();
+		if (sis1 == kul1 && sis2== kul2)
+		System.out.println("ebeyin �eyini kazand�n�z");
+		else if (sis1 == kul1 || sis2 == kul2)
+			System.out.println("furkanla bir gece kazand�n�z");
+		else if (sis1 == kul1 || sis1 == kul2 || sis2 == kul1 || sis2 == kul2)
+			System.out.println("1,000 kazand�n�z");
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}
