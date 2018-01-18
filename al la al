@@ -1,0 +1,39 @@
+Scanner scn = new Scanner (System.in);
+		
+		System.out.println("Ürün Kodu Satış Fiyatı");
+		System.out.println("\t1\t10.00");
+		System.out.println("\t2\t15.00");
+		System.out.println("\t3\t3.25");
+		System.out.println("\t4\t1.50");
+		System.out.println("\t5\t45.00");
+		
+		System.out.println("Kaç ürün satin alacaksınız? ");
+		int urunadet = scn.nextInt();
+		double u1=0, u2=0, u3=0, u4=0, u5=0;
+		
+		for (int i = 0; i < urunadet; i++)
+		{
+			System.out.println("Hangi ürünü satin alacaksınız? ");
+			int urun = scn.nextInt();
+			System.out.println("Kaç adet alacaksınız? ");
+			int adet = scn.nextInt();	
+			
+		}
+		
+		int urun;
+		switch (urun) {
+		case 0:
+			
+			System.out.println("\tÜrün Kodu\tBorcunuz");
+			System.out.println("\t1\t\t"+u1+"\t\t");
+			System.out.println("\t2\t\t"+u2+"\t\t");
+			System.out.println("\t3\t\t"+u3+"\t\t");
+			System.out.println("\t4\t\t"+u4+"\t\t");
+			System.out.println("\t5\t\t"+u5+"\t\t");
+			
+			System.out.println("Toplam Borcunuz"u1+u2+u3+u4+u5);
+			
+			
+		}
+		
+		
