@@ -1,0 +1,28 @@
+package okan_Bütünleme_Sinavi;
+
+import java.util.Scanner;
+
+public class arda_Sönmez_Bütünleme_Sınavı_Soru2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner input = new Scanner(System.in);
+		int ö = 0, ö1, ö2, ö3, ö4, ö5 ;
+		int ortalama = 0;
+		System.out.println("Kaç öğrencinin notunu gireceksin");
+		ö1 = input.nextInt();
+		System.out.println("Öğrencinin notunu girin ");		
+		ö2 = input.nextInt();
+		System.out.println("Öğrencinin notunu girin ");
+		ö3 = input.nextInt();
+		System.out.println("Öğrencinin notunu girin ");
+		ö4 = input.nextInt();
+		System.out.println("Öğrencinin notunu girin ");
+		ö5 = input.nextInt();
+		System.out.println("Öğrencinin notunu girin ");
+		ortalama = (ö1 + ö2 + ö3 + ö4 + ö5) / 5;
+        System.out.println("\nOrtalama : " + ortalama);
+	}
+
+}
